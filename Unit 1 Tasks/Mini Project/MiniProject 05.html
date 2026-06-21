@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant Ordering Interface</title>
+</head>
+<body>
+
+    <h1 align="center">Restaurant Ordering Interface</h1>
+
+    <hr>
+
+    <h2>Welcome to Food Paradise Restaurant</h2>
+    <p>
+        Select your favorite food items from the menu and place your order.
+    </p>
+
+    <hr>
+
+    <h2>Menu Card</h2>
+
+    <table border="1" cellpadding="5">
+        <tr>
+            <th>Item Name</th>
+            <th>Category</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Veg Biryani</td>
+            <td>Main Course</td>
+            <td>₹180</td>
+        </tr>
+        <tr>
+            <td>Chicken Biryani</td>
+            <td>Main Course</td>
+            <td>₹250</td>
+        </tr>
+        <tr>
+            <td>Paneer Butter Masala</td>
+            <td>Curry</td>
+            <td>₹220</td>
+        </tr>
+        <tr>
+            <td>Butter Naan</td>
+            <td>Bread</td>
+            <td>₹40</td>
+        </tr>
+        <tr>
+            <td>Cold Drink</td>
+            <td>Beverage</td>
+            <td>₹50</td>
+        </tr>
+        <tr>
+            <td>Ice Cream</td>
+            <td>Dessert</td>
+            <td>₹80</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>Place Your Order</h2>
+
+    <form action="Miniproject 05(1).html">
+
+        <h3>Customer Details</h3>
+
+        <label>Customer Name:</label>
+        <input type="text" name="name"><br><br>
+
+        <label>Mobile Number:</label>
+        <input type="tel" name="mobile"><br><br>
+
+        <label>Delivery Address:</label><br>
+        <textarea rows="4" cols="40"></textarea><br><br>
+
+        <h3>Select Food Items</h3>
+
+        <input type="checkbox" name="food" value="Veg Biryani">
+        Veg Biryani - ₹180<br>
+
+        <input type="checkbox" name="food" value="Chicken Biryani">
+        Chicken Biryani - ₹250<br>
+
+        <input type="checkbox" name="food" value="Paneer Butter Masala">
+        Paneer Butter Masala - ₹220<br>
+
+        <input type="checkbox" name="food" value="Butter Naan">
+        Butter Naan - ₹40<br>
+
+        <input type="checkbox" name="food" value="Cold Drink">
+        Cold Drink - ₹50<br>
+
+        <input type="checkbox" name="food" value="Ice Cream">
+        Ice Cream - ₹80<br><br>
+
+        <h3>Order Type</h3>
+
+        <input type="radio" name="orderType" value="Dine In">
+        Dine In<br>
+
+        <input type="radio" name="orderType" value="Take Away">
+        Take Away<br>
+
+        <input type="radio" name="orderType" value="Home Delivery">
+        Home Delivery<br><br>
+
+        <h3>Payment Method</h3>
+
+        <select>
+            <option>Cash</option>
+            <option>UPI</option>
+            <option>Credit Card</option>
+            <option>Debit Card</option>
+        </select>
+
+        <br><br>
+
+        <label>Special Instructions:</label><br>
+        <textarea rows="4" cols="40"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Place Order">
+        <input type="reset" value="Clear">
+
+    </form>
+
+    <hr>
+
+    <h2>Restaurant Timings</h2>
+
+    <ul>
+        <li>Monday - Friday: 10:00 AM to 10:00 PM</li>
+        <li>Saturday - Sunday: 9:00 AM to 11:00 PM</li>
+    </ul>
+
+    <hr>
+
+    <h2>Contact Information</h2>
+
+    <p>Email: foodparadise@example.com</p>
+    <p>Phone: +91 9876543210</p>
+
+    <hr>
+
+    <p align="center">
+        © 2026 Food Paradise Restaurant
+    </p>
+
+</body>
+</html>
